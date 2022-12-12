@@ -3,22 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/main">
+    app:startDestination="@id/MainMenu">
 
     <fragment
-        android:id="@+id/main"
-        android:name="com.example.wowcharacterselector.main"
+        android:id="@+id/MainMenu"
+        android:name="com.example.wowcharacterselector.MainMenu"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_main_to_factionSelection"
-            app:destination="@id/factionSelection" />
+            android:id="@+id/action_main_to_classSelector"
+            app:destination="@id/classSelector" />
     </fragment>
 
     <fragment
-        android:id="@+id/factionSelection"
-        android:name="com.example.wowcharacterselector.FactionSelection"
-        android:label="fragment_faction_selection"
-        tools:layout="@layout/fragment_faction_selection" />
+        android:id="@+id/classSelector"
+        android:name="com.example.wowcharacterselector.ClassSelector"
+        android:label="ClassSelector" />
 
 </navigation>
