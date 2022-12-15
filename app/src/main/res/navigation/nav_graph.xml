@@ -6,7 +6,7 @@
     app:startDestination="@id/mainMenu">
     <fragment
         android:id="@+id/mainMenu"
-        android:name="com.example.wowcharacterselector.MainMenu"
+        android:name="com.example.wowcharacterselector.features.menu.presentation.MainMenu"
         android:label="MainMenu"
         tools:layout="@layout/fragment_main_menu">
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectionByClass"
-        android:name="com.example.wowcharacterselector.SelectionByClass"
+        android:name="com.example.wowcharacterselector.features.selection_by_class.presentation.SelectionByClass"
         android:label="SelectionByClass"
         tools:layout="@layout/fragment_selection_by_class"/>
 </navigation>

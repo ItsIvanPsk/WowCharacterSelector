@@ -1,4 +1,4 @@
-package com.example.wowcharacterselector
+package com.example.wowcharacterselector.features.selection_by_class.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater

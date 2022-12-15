@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "695218128225",
+    "firebase_url": "https://wowcharacterselector-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wowcharacterselector",
+    "storage_bucket": "wowcharacterselector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695218128225:android:3c67cda6d0ad1d9c747120",
+        "android_client_info": {
+          "package_name": "com.example.wowcharacterselector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695218128225-0sor5kqg13028vsuvo3fcnde75lr08uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0_FlwSwM0hNJ85LiVxTis1mE97Zls75c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695218128225-0sor5kqg13028vsuvo3fcnde75lr08uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
