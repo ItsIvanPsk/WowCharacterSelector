@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/selectionByClass"
-        android:name="com.example.wowcharacterselector.features.selection_by_class.presentation.SelectionByClass"
+        android:name="com.example.wowcharacterselector.features.selection_by_class.presentation.WowRaces"
         android:label="SelectionByClass"
-        tools:layout="@layout/fragment_selection_by_class"/>
+        tools:layout="@layout/fragment_wow_races"/>
 </navigation>

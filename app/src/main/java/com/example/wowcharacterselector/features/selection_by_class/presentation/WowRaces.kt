@@ -5,14 +5,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.wowcharacterselector.databinding.FragmentSelectionByClassBinding
+import com.example.wowcharacterselector.databinding.FragmentWowRacesBinding
 
-class SelectionByClass : Fragment() {
-    private lateinit var binding: FragmentSelectionByClassBinding
+class WowRaces : Fragment() {
+    private lateinit var binding: FragmentWowRacesBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = FragmentSelectionByClassBinding.inflate(layoutInflater)
+        binding = FragmentWowRacesBinding.inflate(layoutInflater)
     }
 
     override fun onCreateView(
@@ -24,7 +24,9 @@ class SelectionByClass : Fragment() {
         return binding.root
     }
 
-    fun setupListeners() = with(binding){  }
+    private fun setupListeners() = with(binding){
 
-    fun setupObservers(){ }
+    }
+
+    private fun setupObservers(){ }
 }
